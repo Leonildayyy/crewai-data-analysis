@@ -1,6 +1,0 @@
-2025-07-19 15:44:40,866 - INFO - AgentOps: 'crewai' is the first-targeted agentic library. Will uninstrument providers if any are/become active.
-2025-07-19 15:44:40,873 - INFO - AgentOps: Successfully instrumented 'CrewaiInstrumentor' for package 'agentops.instrumentation.agentic.crewai'.
-2025-07-19 15:44:40,873 - INFO - Session Replay for default trace: https://app.agentops.ai/sessions?trace_id=8589f0d8d8eda62db16f9907bcc037e7
-2025-07-19 15:44:42,765 - WARNING - ToolEvent() is deprecated and will be removed in v4 in the future. Automatically tracked in v4.
-2025-07-19 15:44:46,922 - WARNING - end_session() is deprecated and will be removed in v4 in the future. Use agentops.end_trace() instead.
-2025-07-19 15:44:47,132 - INFO - Session Replay for default.session trace: https://app.agentops.ai/sessions?trace_id=8589f0d8d8eda62db16f9907bcc037e7
