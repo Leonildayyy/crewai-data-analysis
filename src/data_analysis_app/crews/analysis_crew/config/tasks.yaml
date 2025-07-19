@@ -1,0 +1,17 @@
+extract_data:
+  description: >
+    Generate a valid SQL query based on the user's {question} and the given {schema}.
+    Execute the query and return the result table only.
+  expected_output: >
+    A result table returned from the executed SQL query.
+  agent: sql_dev
+  input_variables: {question}
+
+analyze_data:
+  description: >
+    Interpret the result of the SQL query and answer the user's original {question}.
+  expected_output: >
+    A brief and accurate answer to the user's question based on the SQL output .Round the result to **2 decimal places** before returning it.
+  agent: analyst
+  context: [extract_data]
+  input_variables: {question}
