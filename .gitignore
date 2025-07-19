@@ -1,4 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+src/data_analysis_app/.env
+.vscode/
 *.log
 *.sqlite
 *.csv
+.DS_Store
+.ipynb_checkpoints/
 .Rhistory
+venv/
