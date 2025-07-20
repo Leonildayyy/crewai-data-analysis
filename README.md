@@ -33,5 +33,5 @@ OPENAI_API_KEY=your-openai-api-key-here
 
 ### 5. Run streamlit
 
-run src/data_analysis_app/main.py
+run src/data_analysis_app/main.py  
 You can now upload the sample data file and interact with your data
