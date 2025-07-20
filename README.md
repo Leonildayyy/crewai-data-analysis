@@ -31,6 +31,7 @@ config/tasks.yaml – define tasks, goals, and expected outputs
 Create a .env file at the root or in the src/data_analysis_app/ directory, and add:  
 OPENAI_API_KEY=your-openai-api-key-here
 
-### 5. Run streamlit run src/data_analysis_app/main.py
-   
+### 5. Run streamlit
+
+run src/data_analysis_app/main.py
 You can now upload the sample data file and interact with your data
