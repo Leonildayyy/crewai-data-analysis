@@ -1,6 +1,8 @@
 ## CrewAI Data Analysis App
 
-A simple Streamlit app using CrewAI and OpenAI to analyze uploaded CSV files. Users can inspect the data schema and ask questions to get instant insights.
+A simple Streamlit app that uses CrewAI and OpenAI to help analyze CSV files. Users can upload a sample dataset, view the table structure, and ask questions about the data.  
+The app stores the uploaded file in a temporary SQLite3 database, making it easy to inspect and query the data efficiently.  
+You’ll need an OpenAI API key to get started. Just upload a file and start playing around — ask questions, spot patterns, and get quick answers.
 
 ## Features
 
